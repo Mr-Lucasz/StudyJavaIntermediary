@@ -9,5 +9,8 @@ package packageInterface;
  * @author 01295230208
  */
 public class Pessoa {
+
+    public Pessoa(String pessoa1) {
+    }
     
 }
