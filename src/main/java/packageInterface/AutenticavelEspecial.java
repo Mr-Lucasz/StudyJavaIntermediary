@@ -8,8 +8,6 @@ package packageInterface;
  *
  * @author 01295230208
  */
-public interface Autenticavel {
-    
-    
+public interface AutenticavelEspecial {
     
 }
