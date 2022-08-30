@@ -21,8 +21,8 @@ public class App {
         
         List<Autenticavel> autenticaveis = new ArrayList<>();
         
-        Autenticavel diretor = new Diretor();
-        Autenticavel gerente = new Gerente();
+        Autenticavel diretor = (Autenticavel) new Diretor();
+        Autenticavel gerente = (Autenticavel) new Gerente();
         
         autenticaveis.add(gerente);
         autenticaveis.add(diretor);
