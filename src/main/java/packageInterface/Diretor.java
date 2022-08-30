@@ -8,12 +8,16 @@ package packageInterface;
  *
  * @author 01295230208
  */
-public class Direto {
+public class Diretor {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
         // TODO code application logic here
+    }
+
+    public void Diretor() {
+      
     }
 }
