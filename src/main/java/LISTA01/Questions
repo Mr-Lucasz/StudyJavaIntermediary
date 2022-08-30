@@ -6,42 +6,57 @@ solicitadas no exercício
 o Ex: br.udesc.prog2.exercicio1
 • Para questões com definição coloque sua resposta como um comentário na classe
 Principal.java do exercício
+
 1. Explique o que são modificadores de visibilidade em Java e demonstre o uso dos
 modificadores através de um exemplo.
+
 2. Explique o que são modificadores de escopo em Java e demonstre o uso dos
 modificadores através de um exemplo.
+
 3. Explique o que são classes abstratas e demonstre seu uso através de um exemplo.
 a. Utilize sobrescrita de métodos
 4. Explique a diferença entre passagem de parâmetro por valor e passagem de
 parâmetro por referência. Qual forma o Java usa nas suas passagens de parâmetros?
 Faça um exemplo demonstrando a diferença na passagem de parâmetros para tipos
 primitivos e objetos em Java.
+
 5. Diferencie sobrecarga de métodos de sobrescrita de métodos. Em seguida, apresente
 um exemplo em Java que faça uso das 2 abordagens.
+
 6. Defina polimorfismo e exemplifique seu uso em Java. Seu programa deve:
+
 a. Possuir pelo menos 4 classes, sendo 3 classes de modelo e uma classe principal
 apresentando o uso das classes implementadas
 b. Fazer uso de classe abstrata
 c. Apresentar saídas no console
+
 7. Para que serve a palavra reservada super? Demonstre seu uso para construtores e para
 métodos.
+
 8. Explique como funciona o instanceof e faça um exemplo em Java seu uso.
+
 a. Utilizar Herança
 b. Utilizar List no exemplo
 c. Fazer uso de Casting para utilizar todos os recursos de um objeto
+
 9. Faça um programa para justificar um texto (String) com um número de colunas
 informado pelo usuário.
+
 a. Por exemplo, para o texto “Este é um exemplo de texto que vamos justificar
 usando o nosso programa” quando justificado em 18 colunas, teríamos:
 Obs: Utilize o método split da classe String.
 Sugestão: Utilize o método Collections.addAll(suaLista, array) para adicionar um
 array tradicional ao seu ArrayList (suaLista)
+
 10. Explique o que são interfaces em Java e demonstre seu uso através de um exemplo.
+
 a. Crie ao menos 2 interfaces
 b. Crie ao menos 3 classes que implementem as interfaces criadas
 c. Demonstre o comportamento polimórfico através de interface
+
 11. Implemente uma agenda telefônica (Contatos) utilizando a collection List e sua
 implementação ArrayList. O contato deve possuir nome e o telefone associado.
+
 a. Sua aplicação deve possibilitar o usuário:
 i. buscar contatos por telefone
 ii. buscar contato por nome
@@ -51,26 +66,34 @@ b. Utilize interface para definir os métodos da agenda
 c. Criei 4 métodos para apresentar os dados na ordem que foram cadastrados,
 cada método deve utilizar um loop diferente (for tradicional, while com iterator,
 enhanced for, foreach com uso de classe anônima para interface Consumer)
+
 12. Modifique a questão 11 para permitir inserção de contatos no início e no final da
 agenda.
+
 a. Utilize LinkedList
 b. Demonstre o uso da estrutura através de uma inserção sequencial de 3
 contatos, seguida de 1 inserção no início e outra no final. Por fim, apresente os
 dados da agenda.
+
 13. Adicione um método para listar todos os Contatos em ordem alfabética.
+
 a. Utilize a interface Comparable
 b. Adicione o novo método direto na classe concreta (ex: AgendaLista), visando o
 reaproveitamento da interface Agenda, implementada no exercício 11, nos
 exercícios 15 e 16
+
 14. Adicione um método para listar todos os Contatos em ordem alfabética pelo
 sobrenome.
+
 a. Mantenha a implementação do Comparable criado na questão anterior
 b. Utilize a interface Comparator
 c. Utilize classe anônima ao usar o Comparator
 d. Adicione o novo método direto na classe concreta (ex: AgendaLista), visando o
 reaproveitamento da interface Agenda, implementada no exercício 11, nos
 exercícios 15 e 16
+
 15. Implemente a interface da agenda criada no exercício 11 utilizando a collection Set.
+
 a. Implemente os métodos hashcode e equals
 b. Demonstre o potencial da estrutura Set através do cadastramento de 2 objetos
 (Contato / Pessoa) que sejam considerados iguais
@@ -78,4 +101,5 @@ c. Explique a importância do hashcode e equals para essa estrutura (Set) e
 demonstre qual seria o comportamento caso esses métodos não fossem
 implementados. Sugestão: Copie o código implementado para outro pacote e
 remova os métodos hashcode e equals para validar o comportamento.
+
 16. Implemente a interface da agenda criada no exercício 11 utilizando a estrutura Map.
