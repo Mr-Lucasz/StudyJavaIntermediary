@@ -12,7 +12,8 @@ import collection.Listas.Agenda;
  */
 public class App {
     public static void main(String[] args) {
-        Agenda agenda = new AgendaList();
+        //Agenda agenda = new AgendaList();
+        Agenda agenda = new AgendaSet();
         
         agenda.addContato(new Contato("Lucas", "123"));
          agenda.addContato(new Contato("Pedro", "001"));
@@ -20,7 +21,11 @@ public class App {
          
         Contato contato = agenda.buscarContatoNome("Lucas");
         
-        System.out.println(contato);
+        if( contato != null){
+            System.out.println(contato);
+        }else
+            System.out.println("NOT FOUND");
+        
         
         }
     
